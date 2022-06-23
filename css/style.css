@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+body {
+  background: #000;
+}
+
+.fechaHora {
+  font-family: "Orbitron", sans-serif;
+  font-size: 2em;
+}
+
+/* efecto neon */
+.azul {
+  color: white;
+  text-shadow: 0 0 5px #7bacff, 0 0 10px #7bacff, 0 0 15px #7bacff,
+    0 0 20px #7bacff, 0 0 40px #7bacff, 0 0 80px #7bacff, 0 0 90px #7bacff,
+    0 0 100px #7bacff;
+}
+.rosa {
+  color: white;
+  text-shadow: 0 0 5px #ff7be2, 0 0 10px #ff7be2, 0 0 15px #ff7be2,
+    0 0 20px #ff7be2, 0 0 40px #ff7be2, 0 0 80px #ff7be2, 0 0 90px #ff7be2,
+    0 0 100px #ff7be2;
+}
+.verde {
+  color: white;
+  text-shadow: 0 0 5px #80e4be, 0 0 10px #80e4be, 0 0 15px #80e4be,
+    0 0 20px #80e4be, 0 0 40px #80e4be, 0 0 80px #80e4be, 0 0 90px #80e4be,
+    0 0 100px #80e4be;
+}
+
+.btn-celeste {
+  background: #7bacff;
+  color: white;
+}
+.btn-celeste:hover {
+  box-shadow: 0 0 5px #7bacff;
+  box-shadow: 0 0 15px #7bacff;
+  box-shadow: 0 0 25px #7bacff;
+  color: #7bacff;
+}
+.btn-verde {
+  background: #80e4be;
+  color: white;
+}
+.btn-verde:hover {
+  box-shadow: 0 0 5px #80e4be;
+  box-shadow: 0 0 15px #80e4be;
+  box-shadow: 0 0 25px #80e4be;
+  color: #80e4be;
+}
+
+.btn-rosa {
+  background: #ff7be2;
+  color: white;
+}
+
+.btn-rosa:hover {
+  box-shadow: 0 0 5px #ff7be2;
+  box-shadow: 0 0 15px #ff7be2;
+  box-shadow: 0 0 25px #ff7be2;
+  color: #ff7be2;
+}
